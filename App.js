@@ -3,7 +3,7 @@ import HomeScreen from "./screen/home";
 import StackNavigator from "./StackNavigator";
 import { StyleSheet, Text, View } from "react-native";
 import { FitnessContext } from "./Context";
-
+import "react-native-reanimated"
 
 export default function App() {
   return (

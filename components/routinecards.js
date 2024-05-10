@@ -23,8 +23,7 @@ const routinecards = () => {
           <Text style={{position: "absolute",color: "white",fontSize: 16,fontWeight: "bold",left: 20,top: 20,}}>
             {item.name}
           </Text>
-          <MaterialCommunityIcons style={{ position: "absolute", color: "white", bottom: 15,left:20 }} name="lightning-bolt" size={24} color="black"
-          />
+          
         </Pressable>
       ))}
     </View>
